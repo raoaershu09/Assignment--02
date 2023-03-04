@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.heading {
+  text-align: center;
+  font-size: 200px;
+  font-family: cursive;
+  color: mediumpurple;
+  background-color: black;
+  height: 300px;
+}
+nav,
+li,
+a {
+  display: flex;
+  padding-left: 150px;
+  margin-top: 20px;
+  font-size: 35px;
+  font-family: cursive;
+  text-align: center;
+  text-decoration: none;
+  background-color: black;
+  color: white;
+}
+nav,li,a:hover{
+    color: mediumpurple;
+}
+h1 {
+  text-align: center;
+  color: black;
+  font-family: cursive;
+  font-size: 80px;
+  width: 1700px;
+  height: 100px;
+  background-color: red;
+  position: relative;
+  animation-name: example;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  margin-top: 150px;
+}
+
+@keyframes example {
+  0% {
+    background-color: red;
+    left: 0px;
+    top: 0px;
+  }
+  25% {
+    background-color: aqua;
+    left: 200px;
+    top: 0px;
+  }
+  50% {
+    background-color: blue;
+    left: 200px;
+    top: 200px;
+  }
+  75% {
+    background-color: green;
+    left: 0px;
+    top: 200px;
+  }
+  100% {
+    background-color: red;
+    left: 0px;
+    top: 0px;
+  }
+}
+.bg {
+  background-image: url("photo.wood.avif");
+  background-size: cover;
+  height: 1500px;
+  margin-top: 200px;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+p{
+    text-align: center;
+    font-size: 28px;
+    margin-top: 20px;
+}
+.button {
+    background-color: green;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 35px;
+    font-family: cursive;
+    margin: 4px 2px;
+    margin-top: 30px;
+    margin-left: 820px;
+    cursor: pointer;
+    border-radius: 12%;
+ } 
+  .button:hover{
+    background-color: gray;
+    color: black;
+  }
+  img {
+    width: 50px;
+    height: 50px;
+    margin-left: 1600px;
+    border-radius: 10px;
+    cursor: pointer;
+    position: absolute;
+    transition: 0.4s ease-in-out;
+}
+img:hover {
+    width: 40px;
+    height: 40px;
+}
